@@ -32,6 +32,8 @@ int main()
     {
         int b,e,nn;cin>>b>>e>>nn;
         int ans =mod_exp(b,e,nn);
+
+      //  int ans =mod_exp(b,e,10);  if i need  last digit 
         cout<<ans<<endl;
     }
 }
