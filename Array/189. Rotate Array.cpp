@@ -48,3 +48,19 @@ int32_t main()
 
 
 }
+
+
+    void rotate(vector<int>& arr, int k) {
+
+     0(n)
+0(1) --sc
+        int n =arr.size();
+        k=k%n;
+        reverse(arr.begin(),arr.end());
+        
+          reverse(arr.begin(),arr.begin()+k);
+           reverse(arr.begin()+k,arr.end());
+
+    }
+
+
